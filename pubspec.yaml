@@ -1,0 +1,52 @@
+name: bio_drop
+description: BIO_DROP - Приложение для управления дронами при разбрасывании биоагентов
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Навигация
+  go_router: ^14.2.7
+  
+  # Карты
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^11.0.0
+  
+  # Файловая система
+  file_picker: ^8.0.0+1
+  
+  # UI компоненты
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  
+  # Состояние приложения
+  provider: ^6.1.1
+  
+  # HTTP запросы
+  http: ^1.2.1
+  
+  # Локальное хранение
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - Logo/
+    - photo/
+  
